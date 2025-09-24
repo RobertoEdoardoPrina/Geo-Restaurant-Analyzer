@@ -5,7 +5,7 @@ The program analyzes restaurant coordinates and verifies if they are located ins
 
 ## 📂 Project Structure
 
-- **`polygon_check_count.py`** – Main Python script that performs the analysis.  
+- **`polygon_check.py`** – Main Python script that performs the analysis.  
 - **`Polygons.csv`** – File containing polygons in WKT (Well-Known Text) format.  
 - **`Restaurants.csv`** – File containing the list of restaurants with their coordinates (latitude, longitude).  
 - **`Restaurants_in_zones.csv`** – Output file generated with the results.  
@@ -36,7 +36,7 @@ pip install pandas shapely
 From the terminal, run:
 
 ```bash
-python polygon_check_count.py
+python polygon_check.py
 ```
 
 By default, the script will use:  
